@@ -1,0 +1,246 @@
+<!doctype html>
+<html>
+  <head>
+      <!-- Nonvisible elements in this section-->
+      <!-- CSS Goes here in STYLE tags-->
+      <style>
+          * {
+              margin: 0;
+              padding: 0;
+              box-sizing: border-box;
+          }
+          header {
+            color: black;
+            background: gold;
+            text-align: center;
+          }
+          nav {
+            color: black;
+            background: moccasin;
+            padding: 2vh;
+          }
+          footer {
+            color:black;
+            background: moccasin;
+            padding: 2vh;
+            min-height: 10vh;
+          }
+          .container {
+            color: black;
+            background: papayawhip;
+            padding: 2vh;
+            min-height: 70vh;
+            width: 80%;
+            margin: auto;
+          }
+          .flex-container {
+            display:flex;
+            flex-direction: column;
+          }
+          .row {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            background: gold;
+            margin: 1vh auto;
+            width: 100%;
+          }
+          .row-item {
+            flex-basis: 100%;
+            text-align: center;
+            min-height: 30vh;
+            background: floralwhite;
+            margin: 1vh;
+            border: 1px black solid;
+          }
+          .row-item h3 {
+            padding: 1.5rem;
+            font-size: 1.5rem;
+            background: navajowhite;
+          }
+          .row-item p {
+            font-size: 1.15rem;
+            color: black;
+            padding: 1rem;
+          }
+          .row-movie {
+            height: 25vh;
+            background: black;
+          }
+          .flex-container h2 {
+            font-size: 2rem;
+            padding: 1rem;
+          }
+          .row-movie iframe {
+            display: block;
+            width: 100%;
+            height:100%;
+          }
+          
+          
+          </style>
+      <!-- title tag for browser tab next-->
+      <title>Flexbox Favorite Music</title>
+  </head>
+  <body>
+      <header>
+          <h1>Flexbox Rows: Favorite Music</h1>
+          <p>
+              Luna Ferdausi<br>
+              November 22, 2021<br>
+              Web 1, 4th Hour
+          </p>
+      </header>
+      <nav>
+          Placeholder
+      </nav>
+      <div class="container">
+          <!-- Main page content here-->
+          <div class= "flex-container">
+
+              <h2>BTS -- K-Pop</h2>
+              <!-- Start of row 1 -->
+              
+              <div class= "row">
+                
+                  <div class="row-item">
+                      <div class="row-movie">
+                      <iframe src="https://www.youtube.com/embed/xEeFrLSkMm8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+                      <h3>Spring Day</h3>
+                      <p>
+                         “Spring Day” is a reflective, passionate song about love, loss, and yearning for the past.
+                      </p>
+                  </div>
+     
+            
+                  <div class="row-item">
+                      <div class="row-movie">
+                          <!-- iframe from youtube will go here -->
+                        <iframe src="https://www.youtube.com/embed/GZjt_sA2eso" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+                      <h3>Save Me</h3>
+                      <p>
+                        "Save Me" is a heartfelt song  about how someone’s love can go a long way in saving a person from the depths of darkness. It expresses the desire to win the affections of someone you are in love with.
+                      </p>
+                  </div>
+                  
+                  <div class="row-item">
+                      <div class="row-movie">
+                          <!-- iframe from youtube will go here -->
+                        <iframe src="https://www.youtube.com/embed/9IHwqdz8Xhw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+                      <h3>Stay Gold</h3>
+                      <p>
+                         "Stay Gold" is an emotional song about fighting off negativity with positive energy.
+                      </p>
+                  </div>
+                  
+
+              </div><!-- End of row-->
+              <h2>Olivia Rodrigo -- Pop</h2>
+              <!-- Start of row 2 -->
+              
+              <div class= "row">
+                
+                  <div class="row-item">
+                      <div class="row-movie">
+                          <!-- iframe from youtube will go here -->
+                        <iframe src="https://www.youtube.com/embed/GZjt_sA2eso" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+                      <h3>Traitor</h3>
+                      <p>
+                        "Traitor" is a song expressing feelings of betrayal as one watches their ex move on with another lover.
+                      </p>
+                  </div>
+                  
+
+            
+                  <div class="row-item">
+                      <div class="row-movie">
+                          <!-- iframe from youtube will go here -->
+                        <iframe src="https://www.youtube.com/embed/gNi_6U5Pm_o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+                      <h3>Good 4 You</h3>
+                      <p>
+                        "good 4 u" is sung from the perspective of someone watching their ex get with another person.
+                      </p>
+                  </div>
+                  
+
+              
+                  <div class="row-item">
+                      <div class="row-movie">
+                          <!-- iframe from youtube will go here -->
+                        <iframe src="https://www.youtube.com/embed/OOgvDiXl6hA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+                      <h3>All I Want</h3>
+                      <p>
+                        "All I Want" is an emotionally driven song expressing the longing of wanting a relationship where love lasts and stays.
+                      </p>
+                   </div>
+                  
+
+              </div><!-- End of row-->
+              
+              <h2>Ariana Grande -- Pop</h2>
+              <!-- Start of row 2 -->
+              
+              <div class= "row">
+                
+                  <div class="row-item">
+                      <div class="row-movie">
+                          <!-- iframe from youtube will go here -->
+                        <iframe src="https://www.youtube.com/embed/ffxKSjUwKdU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+                      <h3>No Tears Left To Cry</h3>
+                      <p>
+                        "No Tears Left To Cry" is about the disorientation you go through in life and the complexities and disillusionment of the world. whether you need to find the ground or whether the ground's just what you make of it. The song is literally about picking your life up when a recent event puts it upside down.
+                      </p>
+                  </div>
+                  
+
+            
+                  <div class="row-item">
+                      <div class="row-movie">
+                          <!-- iframe from youtube will go here -->
+                        <iframe src="https://www.youtube.com/embed/nQJEp-k-ogs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+                      <h3>POV</h3>
+                      <p>
+                        "POV" is a song to show appreciation to a lover for appreciating them despite their romantic shortcomings.
+
+                      </p>
+                  </div>
+                  
+
+              
+                  <div class="row-item">
+                      <div class="row-movie">
+                          <!-- iframe from youtube will go here -->
+                        <iframe src="https://www.youtube.com/embed/LBBZeJhteRE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+                      <h3>Safety Net</h3>
+                      <p>
+                        "Safety Net" is primarily about learning to open oneself up to love again even after the pain of lost relationships and allowing yourself to be vulnerable — even without a safety net.
+                      </p>
+                   </div>
+                  
+
+              </div><!-- End of row-->
+            
+          </div><!-- End flex container-->
+          
+          
+          
+      
+      
+      </div><!-- End container -->
+      <footer>
+          Placeholder
+      </footer>
+    
+    
+      <!-- Don't delete these but do paste them -->
+  </body>
+</html>
